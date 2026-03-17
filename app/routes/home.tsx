@@ -18,7 +18,7 @@ export default function Home() {
       {/* Nav */}
       <nav className="px-6 py-4 flex justify-between items-center border-b border-gray-200">
         <div className="flex items-center gap-2">
-          <img src="/icon.png" alt="I'm Safe" className="w-7 h-7" />
+          <img src={`${import.meta.env.BASE_URL}icon.png`} alt="I'm Safe" className="w-7 h-7" />
           <span className="font-semibold text-lg" style={{ color: "#6b5ce0" }}>I'm Safe</span>
         </div>
         <a
@@ -32,7 +32,7 @@ export default function Home() {
 
       {/* Hero */}
       <section className="px-6 py-20 text-center max-w-2xl mx-auto">
-        <img src="/icon.png" alt="I'm Safe" className="w-20 h-20 mx-auto mb-6" />
+        <img src={`${import.meta.env.BASE_URL}icon.png`} alt="I'm Safe" className="w-20 h-20 mx-auto mb-6" />
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-4">
           一鍵報平安，
           <br />
